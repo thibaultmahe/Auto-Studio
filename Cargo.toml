@@ -1,0 +1,17 @@
+[workspace]
+members = ["crates/studio-core", "src-tauri"]
+default-members = ["crates/studio-core"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "LicenseRef-Proprietary"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true
+
+[profile.dev]
+debug = 1

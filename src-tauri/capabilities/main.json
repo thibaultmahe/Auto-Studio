@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "Fenêtre locale uniquement, aucun shell ni accès fichiers générique.",
+  "windows": ["main"],
+  "permissions": ["core:default", "allow-studio"]
+}

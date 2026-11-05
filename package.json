@@ -1,0 +1,22 @@
+{
+  "name": "autostudio-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "check": "tsc --noEmit",
+    "build": "npm run check && vite build",
+    "test": "vitest run",
+    "tauri": "tauri",
+    "desktop": "tauri dev"
+  },
+  "dependencies": { "@tauri-apps/api": "2.12.4" },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.4",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "4.0.18",
+    "jsdom": "27.4.0"
+  }
+}

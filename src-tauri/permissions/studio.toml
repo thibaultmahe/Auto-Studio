@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-studio"
+description = "Opérations métier validées pour la fenêtre principale."
+commands.allow = ["snapshot", "import_photo", "classify", "preview", "plan", "submit_photo", "sync_photo", "compose_photo", "review_photo", "export_photo", "save_limits", "key_status", "save_key", "delete_key", "pin_provider"]

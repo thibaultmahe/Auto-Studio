@@ -9,3 +9,11 @@ Thumbs.db
 
 # Journaux
 *.log
+
+# Développement
+node_modules/
+dist/
+target/
+src-tauri/gen/
+.vscode/
+artifacts/
